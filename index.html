@@ -1,296 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>PORTFOLIO _ PRIYANSHI</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor / Icon CSS (keeping icons, lightbox, other JS libs if you need them) -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main custom CSS -->
-  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <!-- Header / Sidebar (if you like fixed nav) -->
-  <header id="site-header" class="site-header">
-    <div class="header-inner">
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
       <div class="profile">
-        <h1 class="site-title"><a href="index.html">Priyanshi Mapara</a></h1>
-        <div class="social-links">
-          <a href="https://www.instagram.com/priyanshi.mapara/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/priyanshi-mapara/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="bx bxl-linkedin"></i></a>
+
+        <h1 class="text-light"><a href="index.html">Priyanshi Mapara</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://www.instagram.com/priyanshi.mapara/" target="_blank" rel="noopener noreferrer" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/priyanshi-mapara/" target="_blank" rel="noopener noreferrer"class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
-      <nav class="main-nav">
-        <ul class="nav-list">
-          <li><a href="#hero" class="nav-link">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#resume" class="nav-link">Resume</a></li>
-          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
-      </nav>
+      </nav><!-- .nav-menu -->
     </div>
-  </header>
+  </header><!-- End Header -->
 
-  <!-- Hero Section -->
-  <section id="hero" class="hero">
-    <div class="hero-content">
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
       <p>Welcome to my portfolio Website</p>
-      <h1 class="hero-name">Priyanshi Mapara</h1>
-      <p class="hero-tagline">I build software & design intelligent solutions</p>
+      <h1> <span class = "typed" data-typed-items="Priyanshi Mapara"></span></h1>
+      <p>I'm a Computer Science Student</span></p>
     </div>
-  </section>
+  </section><!-- End Hero -->
 
   <main id="main">
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
       <div class="container">
-        <div class="about-inner">
-          <div class="about-left">
-            <div class="about-img-wrapper">
-              <img src="back.png" alt="Priyanshi Mapara" class="about-img" />
-            </div>
-            <div class="contact-info">
-              <p><strong>Name:</strong> Priyanshi Mapara</p>
-              <p><strong>Email:</strong> priyanshi.mapara01@gmail.com</p>
-              <p><strong>Phone:</strong> +1 (608)-686-2767</p>
-            </div>
-            <div class="skills-list">
-              <h4>Skills</h4>
-              <ul>
-                <li>Java</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-                <li>HTML &amp; CSS</li>
-              </ul>
-            </div>
-          </div>
-          <div class="about-right">
-            <h2>About Me</h2>
-            <p>I am currently a Senior majoring in Computer Science at University of Wisconsin–Madison.</p>
-            <p>I am a detail-oriented person and I keep my goals and tasks organized to maintain productivity. My interest in computer science lies in being constantly tested to extend the boundaries of problem-solving. I am always eager to learn, grow, and apply my skills to real-world problems.</p>
-            <p>I believe while strong academics set the stage, the real experience is built through collaboration and the network of people I create along the way. Building meaningful connections and working in teams is an important goal for me.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="back.png" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p class="title-s"><em>Name: Priyanshi Mapara</em></p>
+                        <p class="title-s"><em>Profile: Computer Science Student</em> </p>
+                        <p class="title-s"><em>Email: priyanshi.mapara01@gmail.com</em></p>
+                        <p class="title-s"><em>Phone: +1 (608)-686-2767</em></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    
+                    <h4>Skills</h4>
+                    <span>Java</span> 
+                    <div class="progress">
+                      <div class="progress-bar bg-dark" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Python</span> 
+                    <div class="progress">
+                      <div class="progress-bar bg-dark" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Javascript</span> 
+                    <div class="progress">
+                      <div class="progress-bar bg-dark" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>HTML & CSS</span> 
+                    <div class="progress">
+                      <div class="progress-bar bg-dark" role="progressbar" style="width: 70%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
 
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-      <div class="container">
-        <h2 class="section-title">Resume</h2>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        <div class="section-title">
+                           <h2>About Me</h2>
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      <p><em>I am currently a Senior majoring in Computer Science at University of Wisconsin-Madison.</em></p>
 
-        <div class="resume-inner">
+<p><em>I am a detail orientated person and I keep my goals and tasks organized to maintain productivity. My interest in computer science lies in being constantly tested to extend the boundaries of problem-solving.
+The skills that I have attained define me and I am looking forward to enhancing them in any opportunity that I receive.</em></p>
 
-          <div class="resume-column">
-            <div class="resume-block">
-              <h3>Education</h3>
-              <p><strong>University of Wisconsin – Madison</strong></p>
-              <p>Bachelor of Science in Computer Science, May 2023</p>
-              <p><em>Recipient of Maa Foundation Merit-based Scholarship ($14,000)</em></p>
-            </div>
-
-            <div class="resume-block">
-              <h3>Skills & Tools</h3>
-              <ul>
-                <li>Java · Python · JavaScript / Node.js · SQL · Docker · Redis · REST APIs · Git</li>
-                <li>AWS Cloud Security · Swimlane SOAR · API Integration · Secure Coding · SIEM / EDR · Vulnerability Management</li>
-                <li>Architecture Design · Data Structures & Algorithms · Microservices · Data Ingestion Pipelines</li>
-              </ul>
-            </div>
-
-            <div class="resume-block">
-              <h3>Relevant Coursework</h3>
-              <ul>
-                <li>Data Structures & Algorithms</li>
-                <li>Object-Oriented Programming</li>
-                <li>Operating Systems</li>
-                <li>Database Management Systems</li>
-                <li>Computer Architecture & Digital Logic Design</li>
-                <li>Machine Programming & Organization</li>
-                <li>Human-Computer Interaction</li>
-                <li>Artificial Intelligence</li>
-                <li>UI Design · Computer Graphics · Web Services & APIs</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="resume-column">
-            <div class="resume-block">
-              <h3>Work Experience</h3>
-
-              <div class="job">
-                <p class="job-title"><strong>Security Engineer II – Charter Communications (Spectrum)</strong></p>
-                <p class="job-duration">06/2024 – Present</p>
-                <ul>
-                  <li>Architected and deployed enterprise-scale SOAR automation workflows integrating EDR, CMDBs, asset APIs, vulnerability platforms — automating incident detection, enrichment, correlation, and escalation.</li>
-                  <li>Developed high-throughput data ingestion pipelines (Python + REST APIs + JSON/XML parsing + rate-limit handling), normalizing asset, alert, vulnerability, and threat data into the SOC ecosystem.</li>
-                  <li>Led migration of SOAR applications & infrastructure to AWS — handling secure configuration, scalability, and infrastructure resilience.</li>
-                  <li>Built backend services, custom connectors and microservices to support automated remediation (endpoint containment, patch orchestration, privilege revocation), reducing MTTR and manual triage burden.</li>
-                  <li>Documented architecture: sequence diagrams, workflow maps, data flows, runbooks, SOPs to support team adoption and maintenance.</li>
-                  <li>Collaborated across detection engineering, threat intelligence, platform engineering, and SOC operations to define automation requirements, validate integration specs, ensure data fidelity, and align to incident-response SLAs.</li>
-                  <li>Maintained version-controlled workflows / infrastructure (IaC), enabling CI/CD pipelines for security tooling and ensuring reproducibility and auditability.</li>
-                </ul>
+<p><em>I believe while strong academics set the stage for a successful educational journey, the real experience is determined by the network of individuals I create along the way. Building connections is an important goal for me.</em></p>
+                    </p>
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End About Section -->
 
-              <div class="job">
-                <p class="job-title"><strong>Associate Software Engineer – Charter Communications (Spectrum)</strong></p>
-                <p class="job-duration">06/2023 – 06/2024</p>
-                <ul>
-                  <li>Developed and maintained internal data management applications to streamline cybersecurity processes, improving data accuracy and operational efficiency.</li>
-                  <li>Contributed to API integrations and UI/backend development to support advanced application functionalities for internal tooling.</li>
-                  <li>Participated in telemetry and service-activation cohorts — worked on backend development, sprint planning, code reviews, and cross-functional collaboration to enhance reliability and efficiency.</li>
-                  <li>Authored clear documentation for applications and processes to ensure maintainability and team clarity.</li>
-                </ul>
+
+    <!-- ======= Resume Section ======= -->
+
+<section id="resume" class="resume">
+  <div class="container">
+    <div class="section-title">
+      <h2>Resume</h2>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-6" data-aos="fade-up">
+              
+        <h3 class="resume-title">Education</h3>
+        <div class="resume-item">
+          <h4>University of Wisconsin - Madison</h4>
+          <h5>Bachelor of Science in Computer Science, May 2023</h5>
+          <p><em>Recipient of Maa Foundation Merit-based Scholarship ($14,000)</em></p>
+          <h5>Clubs and Organizations:</h5>
+          <ul  class="list-unstyled">
+            <li>Undergraduate Theater Association (Executive Board Member)</li>
+            <li> Developer Student Club (Member)</li>
+          </ul>
+        </div>
+    
+        <h3 class="resume-title">Skills</h3>
+        <div class="resume-item">
+          <ul class="list-unstyled">
+            <li><b>Programming Languages:</b> Java, C, Python, JavaScript, HTML5, CSS3, SQL, Bash/Shell, Golang</li>
+            <li><b>Frameworks and Libraries:</b> React, Vue, Angular, Node</li>
+            <li><b>Tools:</b> Version Control (Git), Adobe Creative Suite, Docker</li>
+            <li><b>Concepts:</b> Logic Design, GUI, Wireframes, Algorithms and Data Structures</li>
+          </ul>
+        </div>
+
+        <h3 class="resume-title">Relevant Coursework</h3>
+    <div class="resume-item">
+      <ul class="list-unstyled">
+        <li><b>Computer Science Core Courses:</b> Data Structures and Algorithms, Object-Oriented Programming, Operating Systems, Database Management System</li>
+        <li><b>Computer Architecture and Organization:</b> Computer Architecture, Digital Logic Design, Machine Programming and Organization</li>
+        <li><b>User Interface & Design:</b> Human-Computer Interaction, Building User Interface, Computer Graphics </li>
+        <li>Artificial Intelligence</li>
+      </ul>
+    </div>
+    
+      </div>
+            
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Work Experience</h3>
+              
+        <div class="resume-item">
+          <h4>Front Desk Position</h4>
+          <h5>PEOPLE Program (Division of Diversity, Equity & Educational Achievement), Madison, Wisconsin, USA</h5>
+          <h5>September 2021 - Present</h5>
+          <ul>
+            <li>Handle department correspondence, phones, and email, and respond to requests for information.</li>
+            <li>Pick up and sort daily incoming correspondence along with working with a diverse team.</li>
+          </ul>
+        </div>
+    
+        <div class="resume-item">
+          <h4>Web Developer</h4>
+          <h5>Jariwala Trading Company, Surat, Gujarat, India</h5>
+          <h5>January 2021 - April 2021</h5>
+          <ul>
+            <button class="btn" style="background-color: #55BCC9;" onclick="window.open('https://jariwalatradingco.com/')">
+              <i class="fas fa-link"></i> 🔗 </button>
+            <li>Developed websites and landing pages for client projects from idea to deployment with an understanding of web markup, including HTML5, CSS3, and JavaScript.</li>
+            <li>Created mockups and designed different prototypes for web and mobile website views.</li>
+            <li>Implemented a new responsive, mobile-first approach, which yielded a 10% increase in mobile traffic.</li>
+            <li>Generated quality graphics and visual elements for the front end of the website.</li>
+          </ul>
+        </div>
+    
+        <div class="resume-item">
+          <h4>Graphic Design Intern</h4>
+          <h5>Trivy Technologies Pvt. Ltd</h5>
+          <p><em>June 2019 - August 2019</em></p>
+          <ul>
+            <li>Created graphic designs for marketing materials, social media posts, and website content</li>
+            <li>Collaborated with the marketing team to develop visual concepts for campaigns</li>
+            <li>Assisted in photo and video shoots for promotional content</li>
+            <li>Managed and organized design files and assets</li>
+          </ul>
+        </div>
+        </div>
+        <div class="columns download">
+          <p>
+            <a href="Resume.pdf" download>Download Resume</a>
+             
+          </p>
+       </div>
+    </div>
+
+<!-- End Resume Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+<section id="portfolio" class="portfolio-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Portfolio
+          </h3>
+          <p class="subtitle-a">
+            Here are some of my latest projects.
+          </p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Project 1 - Astron -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <a href="assets/img/astron.png" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                <img src="assets/img/astron.png" class="card-img-top" alt="Astron">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Astron</h5>
+                <p class="card-text">Software Development / 2020</p>
+                <a href="#" class="btn" style="background-color: #55BCC9;"><span class="ion-ios-plus-outline"></span></a>
               </div>
-
             </div>
-
-            <div class="resume-block">
-              <a href="Resume.pdf" download class="btn-download">Download Resume</a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-      <div class="container">
-        <h2 class="section-title">Portfolio</h2>
-        <p class="section-subtitle">Here are some of my latest projects.</p>
-
-        <div class="projects-grid">
-          <!-- Project 1 -->
-          <div class="project-card">
-            <div class="project-thumb">
-              <a href="assets/img/astron.png" class="project-lightbox"><img src="assets/img/astron.png" alt="Astron" /></a>
-            </div>
-            <div class="project-info">
-              <h3>Astron</h3>
-              <p>Software Development / 2020</p>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div class="project-card">
-            <div class="project-thumb">
-              <a href="assets/img/image-classification.jpeg" class="project-lightbox"><img src="assets/img/image-classification.jpeg" alt="Image Classification" /></a>
-            </div>
-            <div class="project-info">
-              <h3>Image Classification</h3>
-              <p>Machine Learning / 2022</p>
-            </div>
-          </div>
-
-          <!-- Project 3 -->
-          <div class="project-card">
-            <div class="project-thumb">
-              <a href="assets/img/sentiment-analyzer.jpeg" class="project-lightbox"><img src="assets/img/sentiment-analyzer.jpeg" alt="Sentiment Analyzer" /></a>
-            </div>
-            <div class="project-info">
-              <h3>Sentiment Analyzer</h3>
-              <p>Machine Learning / 2023</p>
-            </div>
-          </div>
-
-          <!-- Project 4 -->
-          <div class="project-card">
-            <div class="project-thumb">
-              <a href="assets/img/college-database.jpeg" class="project-lightbox"><img src="assets/img/college-database.jpeg" alt="College Database Management System" /></a>
-            </div>
-            <div class="project-info">
-              <h3>College Database Management System</h3>
-              <p>Database Management / 2019</p>
-            </div>
-          </div>
-
-          <!-- Project 5 -->
-          <div class="project-card">
-            <div class="project-thumb">
-              <a href="assets/img/movie-website.png" class="project-lightbox"><img src="assets/img/movie-website.png" alt="Movie Listing Website" /></a>
-            </div>
-            <div class="project-info">
-              <h3>Movie Listing Website</h3>
-              <p>Web Development / 2020</p>
-            </div>
-          </div>
-
-          <!-- Project 6 -->
-          <div class="project-card">
-            <div class="project-thumb">
-              <a href="assets/img/Teeko-ai.jpeg" class="project-lightbox"><img src="assets/img/Teeko-ai.jpeg" alt="Teeko AI Game Player" /></a>
-            </div>
-            <div class="project-info">
-              <h3>Teeko AI Game Player</h3>
-              <p>Artificial Intelligence / 2020</p>
+            <div class="card-back">
+              <div class="card-info">
+                <h5 class="card-title">Astron</h5>
+                <p class ="card-text"><b>Objective:</b> To create efficient user interfaces for the software involving tangible interaction. This software was designed for the Jariwala Trading Company to streamline their business processes and improve their efficiency.</p>
+                <p class ="card-text"><b>Tools:</b> Java, NetBeans, Adobe Photoshop, Adobe Illustrator, Wireframes, Mockups with Adobe XD, GitHub, MySQL, JavaFX, JUnit, Apache Maven, Visual Studio Code.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-      <div class="container">
-        <h2 class="section-title">Let's Connect!</h2>
-        <p class="section-subtitle">I am always open to new opportunities and challenges.</p>
-        <p>Drop me a message or connect with me on my social media handles to know more about my work and experience.</p>
-
-        <div class="contact-inner">
-          <div class="contact-info">
-            <h3>Contact Information</h3>
-            <p><strong>Email:</strong> priyanshi.mapara01@gmail.com</p>
-            <p><strong>Phone:</strong> +1 (608)-686-2767</p>
+      <!-- Project 2 - Image Classification -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+          <a href="assets/img/image-classification.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <img src="assets/img/image-classification.jpeg" class="card-img-top" alt="Image Classification">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Image Classification</h5>
+            <p class="card-text">Machine Learning & Artificial Intelligence/ 2022</p>
+            <a href="#" class="btn" style="background-color: #55BCC9;"><span class="ion-ios-plus-outline"></span></a>
           </div>
-          <div class="contact-social">
-            <h3>Connect on Social Media</h3>
-            <div class="social-links">
-              <a href="https://www.instagram.com/priyanshi.mapara/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/priyanshi-mapara/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="bx bxl-linkedin"></i></a>
-            </div>
+        </div>
+        <div class="card-back">
+          <div class="card-info">
+            <h5 class="card-title">Image Classification</h5>
+            <p class ="card-text"><b>Objective:</b> Developed a Python script that uses CNNs to classify images into different categories. This project can be used for applications like image recognition and object detection.</p>
+            <p class ="card-text"><b>Tools:</b> Python, TensorFlow, Keras, OpenCV, CIFAR-10 or ImageNet dataset.</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+      </div>
+      <!-- Project 3 - Sentiment Analyzer -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+          <a href="assets/img/sentiment-analyzer.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <img src="assets/img/sentiment-analyzer.jpeg" class="card-img-top" alt="Sentiment Analyzer">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Sentiment Analyzer</h5>
+            <p class="card-text">Machine Learning / 2023</p>
+            <a href="#" class="btn" style="background-color: #55BCC9;"><span class="ion-ios-plus-outline"></span></a>
+          </div>
+          </div>
+          <div class="card-back">
+            <div class="card-info">
+              <h5 class="card-title">Sentiment Analyzer</h5>
+              <p class ="card-text"><b>Objective:</b> Developed a Python script that uses machine learning to analyze the sentiment of a given text. This project can be used to analyze reviews to determine the overall sentiment of the content.              </p>
+              <p class ="card-text"><b>Tools:</b> Python, Natural Language Toolkit (NLTK), Scikit-learn, Pandas, Jupyter Notebook, IMDB database API on Kaggle.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- Project 4 - College Database Management System -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+          <a href="assets/img/college-database.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <img src="assets/img/college-database.jpeg" class="card-img-top" alt="College Database Management System">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">College Database Management System</h5>
+            <p class="card-text">Database Management / 2019</p>
+            <a href="#" class="btn" style="background-color: #55BCC9;"><span class="ion-ios-plus-outline"></span></a>
+          </div>
+      </div>
+      <div class="card-back">
+        <div class="card-info">
+          <h5 class="card-title">College Database Management System</h5>
+          <p class ="card-text"><b>Objective:</b> To design and implement a database management system for a college to organize student and faculty records and improve administrative processes.</p>
+          <p class ="card-text"><b>Tools:</b> Created a GUI using Python's Tkinter toolkit as the front end, and a database using SQL.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+<!-- Project 5 - Movie Listing Website -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+          <a href="assets/img/college-database.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <img src="assets/img/movie-website.png" class="card-img-top" alt="Movie Listing Website">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Movie Listing Website</h5>
+            <p class="card-text">Web Development / 2020</p>
+            <a href="#" class="btn" style="background-color: #55BCC9;"><span class="ion-ios-plus-outline"></span></a>
+          </div>
+      </div>
+      <div class="card-back">
+        <div class="card-info">
+          <h5 class="card-title">Movie Listing Website</h5>
+          <p class ="card-text"><b>Objective:</b> To create a dynamic and user-friendly movie listing website using HTML, CSS, and JavaScript, while gaining practical experience in responsive design, cross-browser compatibility, and optimizing web page performance.</p>
+          <p class ="card-text"><b>Tools:</b> HTML, CSS, JavaScript, FlexBox, Node.js, Visual studio code, GitHub.</p>
+          <div class="button-container">
+            <button class="btn" style="background-color: #55BCC9;" onclick="window.open('https://priyanshi-mapara.github.io/Movie-Website/')">
+              <i class="fas fa-link"></i> 🔗 </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+<!-- Project 6 - Teeko AI Game Player -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+          <a href="assets/img/Teeko-ai.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox">
+            <img src="assets/img/Teeko-ai.jpeg" class="card-img-top" alt="Teeko AI Game Player">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title"> Teeko AI Game Player </h5>
+            <p class="card-text">Artificial Intelligence / 2020</p>
+            <a href="#" class="btn " style="background-color: #55BCC9;"><span class="ion-ios-plus-outline"></span></a>
+          </div>
+      </div>
+      <div class="card-back">
+        <div class="card-info">
+          <h5 class="card-title">Teeko AI Game Player</h5>
+          <p class ="card-text"><b>Objective:</b> To develop an AI game player for the game of Teeko using Python and implementing a minimax algorithm with a depth cutoff to ensure termination in under 5 seconds. </p>
+          <p class ="card-text"><b>Tools:</b> Python 3.10.6, time library, object-oriented programming, minimax algorithm, heuristic scoring function, game state representation.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+</div>
+</section>
+<!-- End Portfolio Section -->
 
-  </main>
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact section-bg">
+  <div class="container">
+    <div class="section-title">
+      <h2>Let's Connect!</h2>
+      <p>I am always open to new opportunities and challenges.</p>
+      <p>Drop me a message or connect with me on my social media handles to know more about my work and experience.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6">
+        <div class="contact-about">
+          <h3>Contact Information</h3>
+          <p>Email: priyanshi.mapara01@gmail.com</p>
+          <p>Phone: +1 (608)-686-2767</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6">
+        <div class="contact-about">
+          <h3>Connect on Social Media</h3>
+          <div class="social-links mt-3">
+            <a href="https://www.instagram.com/priyanshi.mapara/" target="_blank" rel="noopener noreferrer" class="social-icon instagram-icon"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/priyanshi-mapara/" target="_blank" rel="noopener noreferrer" class="social-icon linkedin-icon"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Contact Section -->
 
-  <!-- Optional: Back-to-top button or footer if needed -->
-  <footer class="site-footer">
-    <p>&copy; 2025 Priyanshi Mapara</p>
-  </footer>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Main custom JS if needed -->
+  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 </body>
+
 </html>

@@ -367,8 +367,97 @@ body {
     line-height: 1.5;
   }
 
+  .profile-card {
+    background: #f8f9fa;
+    border: 1px solid #e5e8ed;
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  }
+
+  .profile-title {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #393e46;
+    margin-bottom: 14px;
+    font-weight: 700;
+  }
+
+  .profile-meta li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eceff3;
+    color: #000000;
+    font-weight: 500;
+  }
+
+  .profile-meta li:last-child {
+    border-bottom: none;
+  }
+
+  .profile-meta i {
+    color: #55BCC9;
+    font-size: 18px;
+  }
+
+  .profile-meta .meta-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6c757d;
+    min-width: 80px;
+  }
+
+  .profile-meta .meta-value {
+    font-weight: 600;
+    color: #000000;
+  }
+
+  .skill-mf {
+    margin-top: 22px;
+  }
+
+  .skill-mf h4 {
+    font-size: 18px;
+    color: #393e46;
+    font-weight: 700;
+  }
+
+  .skill-note {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .skill-item {
+    margin-bottom: 14px;
+  }
+
+  .skill-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 6px;
+  }
+
+  .skill-level {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #6c757d;
+    letter-spacing: 0.5px;
+  }
+
+  .skill-mf .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: #eef1f5;
+  }
+
   .progress-bar {
-      background-color: #007bff;
+      background-color: #55BCC9;
+      border-radius: 10px;
   }
   
   /*--------------------------------------------------------------
@@ -642,20 +731,14 @@ body {
     background: #557A95;
   }
   .skill-mf h4{
-    padding-top: 40px;
-    line-height: 18px;
+    padding-top: 0;
+    line-height: 22px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    color: #55BCC9;
-    margin-bottom: 10px;
-  
-  }
-  
-  .skill-mf .title-s .pull-right .progress .progress-bar{
-  
-    color: ##0d6efd;
+    color: #393e46;
+    margin-bottom: 6px;
   }
   
   #footer .copyright {

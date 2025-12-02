@@ -520,6 +520,79 @@ body {
     background: #fff;
     border: 2px solid #393e46;
   }
+
+  .skill-block {
+    background: #f8fafc;
+    border-radius: 12px;
+    border-left-color: #d5dde7;
+    padding: 20px;
+  }
+
+  .skill-block::before {
+    border-color: #d5dde7;
+    background: #fff;
+  }
+
+  .skill-category {
+    margin-bottom: 14px;
+  }
+
+  .skill-category-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 8px;
+    letter-spacing: 0.2px;
+  }
+
+  .skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .skill-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: #e4edf9;
+    color: #0f172a;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+  }
+
+  .coursework-block {
+    background: #f8fafc;
+    border-radius: 12px;
+    border-left-color: #d5dde7;
+    padding: 20px;
+  }
+
+  .coursework-block::before {
+    border-color: #d5dde7;
+    background: #fff;
+  }
+
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+  }
+
+  .course-chip {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #e4edf9;
+    color: #0f172a;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  }
   
   /*--------------------------------------------------------------
   # Contact

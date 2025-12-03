@@ -556,6 +556,37 @@ body {
   /*--------------------------------------------------------------
   # Resume
   --------------------------------------------------------------*/
+  .resume .resume-header {
+    background: linear-gradient(135deg, #f5f8fb 0%, #eef3f8 100%);
+    border: 1px solid #dbe3ee;
+    border-radius: 14px;
+    padding: 18px 20px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  }
+
+  .resume-subtitle {
+    margin: 8px 0 0;
+    color: #475569;
+    font-size: 15px;
+  }
+
+  .resume-download-btn {
+    background: #557A95;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 10px;
+    box-shadow: 0 6px 16px rgba(85, 122, 149, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  }
+
+  .resume-download-btn:hover {
+    background: #55BCC9;
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 22px rgba(85, 188, 201, 0.45);
+  }
+
   .resume .resume-title {
     font-size: 26px;
     font-weight: 700;

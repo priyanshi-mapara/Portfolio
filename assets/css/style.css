@@ -476,7 +476,7 @@ body {
   .capability-row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 10px 0;
     border-bottom: 1px solid #eef1f5;
     gap: 20px;
@@ -493,6 +493,10 @@ body {
     color: #111827;
   }
 
+  .capability-details {
+    min-width: 200px;
+  }
+
   .capability-level {
     margin: 2px 0 0;
     font-size: 12px;
@@ -503,7 +507,9 @@ body {
   }
 
   .capability-progress {
-    flex: 1;
+    flex: 0 0 240px;
+    width: 240px;
+    max-width: 100%;
     background: #eef1f5;
     border-radius: 12px;
     height: 10px;

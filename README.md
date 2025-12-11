@@ -1,4 +1,4 @@
-# Priyanshi Portfolio Website
+# Priyanshi Mapara Portfolio Website
 
 This repository contains Priyanshi's personal portfolio website. It highlights projects, skills, and achievements while providing an easy way for visitors to connect. The site is built as a single-page experience with smooth scrolling sections and responsive design so it looks great on any device.
 
